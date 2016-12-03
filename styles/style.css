@@ -1,6 +1,18 @@
+* {
+	box-sizing: border-box;
+}
+
 .main_elements {
-	align-content: center;
-	vertical-align: middle;
+	position: relative;
+	top: 200px;
+	width: 70%;
+	margin: auto;
+	text-align: center;
+}
+
+#logo {
+	height: 92px;
+	width: 272px;
 }
 
 .navbar {}
