@@ -4,7 +4,7 @@
 
 .main_elements {
 	position: relative;
-	top: 200px;
+	top: 150px;
 	width: 70%;
 	margin: auto;
 	text-align: center;
@@ -15,12 +15,30 @@
 	width: 272px;
 }
 
-input {
-	padding: 10px;
+
+#field {
+	padding: 15px;
+	width: 550px;
+	border: 1px solid #DDD;
+	margin: 30px 0 10px 0;
+	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
 }
 
-#searchbar {
-	width: 500px;
+.submit {
+		padding: 10px 15px;
+    background-color: #EEE;
+    border: none;
+    color: #555;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.submit:hover {
+	border: 1px solid #DDD;
+	color: #000;
 }
 
 .navbar {
